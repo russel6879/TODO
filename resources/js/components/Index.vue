@@ -28,7 +28,7 @@
             <div class="col-auto">
               <label for="inputPassword2" class="visually-hidden">Category</label>
               <select id="disabledSelect" v-model="form.category_id" class="form-select">
-                <option>Select Category</option>
+                <option selected >Select Category</option>
                 <option v-for="list in categoryList" :key="list.id" :value="list.id">{{list.category_name}}</option>
               </select>
             </div>

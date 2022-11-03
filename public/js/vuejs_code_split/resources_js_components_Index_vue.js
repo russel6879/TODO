@@ -396,7 +396,9 @@ var render = function () {
                       },
                     },
                     [
-                      _c("option", [_vm._v("Select Category")]),
+                      _c("option", { attrs: { selected: "" } }, [
+                        _vm._v("Select Category"),
+                      ]),
                       _vm._v(" "),
                       _vm._l(_vm.categoryList, function (list) {
                         return _c(
